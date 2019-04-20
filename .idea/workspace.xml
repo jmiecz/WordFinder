@@ -13,24 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="598e3627-57dd-435e-830f-9b1fb12d56b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/controllers/BaseController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/exts/ControllerExts.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/controller_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dal/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/dal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dal/dal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/network/RetrofitFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/network/RetrofitFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/AdapterContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +68,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
                 <element signature="e#36#419#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/AdapterContract.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding>
+                <element signature="e#56#129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <element signature="e#56#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2346">
+              <caret line="138" column="42" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="42" />
+              <folding>
+                <element signature="e#56#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,6 +176,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainController.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/exts/ControllerExts.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/AdapterContract.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseAdapter.kt" />
       </list>
     </option>
   </component>
@@ -203,6 +227,14 @@
               <item name="wordfinder" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="wordfinder" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="recyclerview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
@@ -682,16 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/models/Challenge.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-          <folding>
-            <element signature="e#56#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/MockedChallengesContract.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -806,6 +828,46 @@
           <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding>
             <element signature="e#36#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/AdapterContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#56#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#56#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" column="42" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="42" />
+          <folding>
+            <element signature="e#56#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/models/Challenge.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="e#56#243#0" expanded="true" />
           </folding>
         </state>
       </provider>
