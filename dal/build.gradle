@@ -71,6 +71,7 @@ dependencies {
     implementation "com.squareup.retrofit2:retrofit:$retroFitVersion"
     implementation "com.squareup.retrofit2:adapter-rxjava2:$retroFitVersion"
     implementation "com.squareup.retrofit2:converter-jackson:$retroFitVersion"
+    implementation "com.squareup.retrofit2:converter-scalars:$retroFitVersion"
 
     implementation "com.squareup.okhttp3:okhttp:$okHttpVersion"
 

@@ -41,4 +41,5 @@ dependencies {
 
     implementation "com.bluelinelabs:conductor:$conductorVersion"
     implementation "com.bluelinelabs:conductor-support:$conductorVersion"
+    implementation 'com.google.android.material:material:1.0.0'
 }
