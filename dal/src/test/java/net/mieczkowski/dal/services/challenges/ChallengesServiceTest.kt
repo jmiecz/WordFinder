@@ -26,7 +26,9 @@ class ChallengesServiceTest : BaseTest() {
             assertEquals("man", toTest.word)
             assertEquals("es", toTest.targetLanguage)
 
-            assertEquals(8, toTest.characterGrid.size)
+            assertEquals(8, toTest.getGridWidth())
+            assertEquals(8, toTest.getGridHeight())
+
             toTest.characterGrid[0].let { char ->
                 assertEquals("i", char[0])
                 assertEquals("q", char[1])

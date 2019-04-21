@@ -9,12 +9,12 @@ import androidx.recyclerview.widget.RecyclerView
 import io.reactivex.disposables.Disposable
 import org.koin.core.KoinComponent
 import java.util.*
-import kotlin.collections.HashMap
 
 /**
  * Created by Josh Mieczkowski on 4/20/2019.
  */
-abstract class BaseAdapter<T>(itemsToAdd: MutableList<T>) : RecyclerView.Adapter<BaseViewHolder<T>>(), AdapterContract<T>,
+abstract class BaseAdapter<T>(itemsToAdd: MutableList<T>) : RecyclerView.Adapter<BaseViewHolder<T>>(),
+    AdapterContract<T>,
     KoinComponent {
 
     var items = itemsToAdd
@@ -28,13 +28,11 @@ abstract class BaseAdapter<T>(itemsToAdd: MutableList<T>) : RecyclerView.Adapter
 
     private val disposables: HashMap<Int, Disposable> = hashMapOf()
 
-    open var addEmptyLastSpace = true
-
     fun setOnClickListener(clickListener: ((Context, T) -> Unit)? = null) {
         this.clickListener = clickListener
     }
 
-    override fun getItemCount(): Int = items.size + if (addEmptyLastSpace) 1 else 0
+    override fun getItemCount(): Int = items.size
 
     override fun onBindViewHolder(holder: BaseViewHolder<T>, position: Int) {
         holder.iAdapter = this

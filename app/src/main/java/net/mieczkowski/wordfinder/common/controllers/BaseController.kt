@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit
  * Created by Josh Mieczkowski on 4/20/2019.
  */
 abstract class BaseController(args: Bundle? = null) : RestoreViewOnCreateController(args), KoinComponent {
-    
+
     private val compositeDisposable: CompositeDisposable by lazy { CompositeDisposable() }
     private var snackbar: Snackbar? = null
 

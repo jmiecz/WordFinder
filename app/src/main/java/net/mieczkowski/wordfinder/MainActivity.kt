@@ -7,6 +7,7 @@ import com.bluelinelabs.conductor.Router
 import kotlinx.android.synthetic.main.activity_main.*
 import net.mieczkowski.dal.DAL
 import net.mieczkowski.wordfinder.common.exts.setRoot
+import net.mieczkowski.wordfinder.wordGrid.WordGridController
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -26,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         router = Conductor.attachRouter(this, rootContainer, savedInstanceState)
         if (!router.hasRootController()) {
-            MainController().setRoot(router)
+            WordGridController().setRoot(router)
         }
     }
 
