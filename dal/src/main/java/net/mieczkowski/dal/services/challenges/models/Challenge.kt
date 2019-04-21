@@ -23,7 +23,7 @@ data class Challenge(
     fun getGridHeight(): Int = characterGrid.size
 
     @JsonIgnore
-    fun getGrid(): MutableList<String>{
+    fun getGrid(): MutableList<MutableList<String>>{
         val grid: MutableList<MutableList<String>> = characterGrid.map { it.toMutableList() }.toMutableList()
 
         wordLocations.forEach { wordLocation ->
@@ -32,9 +32,46 @@ data class Challenge(
             }
         }
 
-        val toReturn = mutableListOf<String>()
-        grid.forEach { toReturn.addAll(it) }
+        return grid
+    }
 
-        return toReturn
+    fun getCharPosition(index: Int): WordLocation.CharPosition {
+        val x = index % getGridWidth()
+        val y = index / getGridWidth()
+
+        return WordLocation.CharPosition(x, y)
+    }
+
+    fun getCharIndex(charPosition: WordLocation.CharPosition): Int = getGridWidth() * charPosition.y + charPosition.x
+
+    fun getSelectableIndexs(index: Int, startingCharPosition: WordLocation.CharPosition): List<Int> {
+        val currentXY = getCharPosition(index)
+
+        return when {
+            startingCharPosition.y == currentXY.y -> handleHorizontal(currentXY, startingCharPosition)
+            startingCharPosition.x == currentXY.x -> handleVertical(currentXY, startingCharPosition)
+            else -> mutableListOf()
+        }
+    }
+
+    private fun handleHorizontal(currentXY: WordLocation.CharPosition, startingCharPosition: WordLocation.CharPosition): List<Int>{
+        val startingPoint = Math.min(startingCharPosition.x, currentXY.x)
+        val endingPoint = Math.max(startingCharPosition.x, currentXY.x)
+        val diff = endingPoint - startingPoint
+
+        return (0..diff).map {
+            getCharIndex(WordLocation.CharPosition(startingPoint + it, currentXY.y))
+        }
+    }
+
+    private fun handleVertical(currentXY: WordLocation.CharPosition, startingCharPosition: WordLocation.CharPosition): List<Int>{
+        val startingPoint = Math.min(startingCharPosition.y, currentXY.y)
+        val endingPoint = Math.max(startingCharPosition.y, currentXY.y)
+        val diff = endingPoint - startingPoint
+
+
+        return (0..diff).map {
+            getCharIndex(WordLocation.CharPosition(currentXY.x, startingPoint + it))
+        }
     }
 }

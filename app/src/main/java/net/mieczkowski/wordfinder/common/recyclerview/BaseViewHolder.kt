@@ -1,31 +1,38 @@
 package net.mieczkowski.wordfinder.common.recyclerview
 
+import android.content.Context
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import org.koin.core.KoinComponent
 
 /**
- * Created by Josh Mieczkowski on 4/20/2019.
+ * Created by Josh Mieczkowski on 4/21/2019.
  */
-abstract class BaseViewHolder<T>(itemView: View) : RecyclerView.ViewHolder(itemView), KoinComponent {
+abstract class BaseViewHolder<T>(itemView: View): RecyclerView.ViewHolder(itemView) {
 
-    var iAdapter: AdapterContract<T>? = null
+    var parentAdapter: BaseAdapter<T>? = null
+
+    private var clickListener: ((Context, Int) -> Unit)? = null
+    private var longClickListener: ((Context, Int) -> Unit)? = null
 
     init {
-        if (adapterHandleOnClick()) {
-            this.itemView.setOnClickListener { iAdapter?.onItemClick(adapterPosition, itemView.context) }
-        } else {
-            this.itemView.setOnClickListener(null)
+        itemView.setOnClickListener { clickListener?.invoke(itemView.context, adapterPosition) }
+
+        itemView.setOnLongClickListener {
+            longClickListener?.invoke(itemView.context, adapterPosition)
+            true
         }
     }
 
-    protected open fun adapterHandleOnClick(): Boolean = true
+    fun bindClickListener(onClick: ((Context, Int) -> Unit)? = null){
+        clickListener = onClick
+    }
 
-    fun bindNull() {
-
+    fun bindLongClickListener(onLongClick: ((Context, Int) -> Unit)? = null){
+        longClickListener = onLongClick
     }
 
     abstract fun bind(item: T)
+    fun bindNull(){}
 
     open fun onDetach() {
 
