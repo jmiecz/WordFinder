@@ -36,6 +36,10 @@ android {
         unitTests.includeAndroidResources true
     }
 
+    androidExtensions {
+        experimental = true
+    }
+
 }
 
 def koinVersion = '2.0.0-rc-2'

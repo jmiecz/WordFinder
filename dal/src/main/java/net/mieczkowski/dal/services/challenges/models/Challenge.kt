@@ -1,21 +1,25 @@
 package net.mieczkowski.dal.services.challenges.models
 
+import android.os.Parcelable
 import com.fasterxml.jackson.annotation.JsonIgnore
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize
+import kotlinx.android.parcel.Parcelize
 import net.mieczkowski.dal.services.challenges.ChallengesDeserializer
 
 /**
  * Created by Josh Mieczkowski on 4/19/2019.
  */
 @JsonDeserialize(using = ChallengesDeserializer::class)
+@Parcelize
 data class Challenge(
     @JsonProperty("source_language") val sourceLanguage: String,
     @JsonProperty("word") val word: String,
     @JsonProperty("character_grid") val characterGrid: List<List<String>>,
     @JsonProperty("word_locations") val wordLocations: List<WordLocation>,
     @JsonProperty("target_language") val targetLanguage: String
-) {
+): Parcelable {
+
     @JsonIgnore
     fun getGridWidth(): Int = characterGrid.first().size
 
