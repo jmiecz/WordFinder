@@ -18,7 +18,7 @@ data class Challenge(
     @JsonProperty("character_grid") val characterGrid: List<List<String>>,
     @JsonProperty("word_locations") val wordLocations: List<WordLocation>,
     @JsonProperty("target_language") val targetLanguage: String
-): Parcelable {
+) : Parcelable {
 
     @JsonIgnore
     fun getGridWidth(): Int = characterGrid.first().size

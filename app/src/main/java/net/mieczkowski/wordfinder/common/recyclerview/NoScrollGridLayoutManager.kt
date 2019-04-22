@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 /**
  * Created by Josh Mieczkowski on 4/21/2019.
  */
-class NoScrollGridLayoutManager: GridLayoutManager {
+class NoScrollGridLayoutManager : GridLayoutManager {
 
     constructor(context: Context?, attrs: AttributeSet?, defStyleAttr: Int, defStyleRes: Int) : super(
         context,

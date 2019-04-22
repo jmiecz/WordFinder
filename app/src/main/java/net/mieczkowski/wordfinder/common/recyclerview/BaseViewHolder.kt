@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 /**
  * Created by Josh Mieczkowski on 4/21/2019.
  */
-abstract class BaseViewHolder<T>(itemView: View): RecyclerView.ViewHolder(itemView) {
+abstract class BaseViewHolder<T>(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     var parentAdapter: BaseAdapter<T>? = null
 
@@ -23,16 +23,16 @@ abstract class BaseViewHolder<T>(itemView: View): RecyclerView.ViewHolder(itemVi
         }
     }
 
-    fun bindClickListener(onClick: ((Context, Int) -> Unit)? = null){
+    fun bindClickListener(onClick: ((Context, Int) -> Unit)? = null) {
         clickListener = onClick
     }
 
-    fun bindLongClickListener(onLongClick: ((Context, Int) -> Unit)? = null){
+    fun bindLongClickListener(onLongClick: ((Context, Int) -> Unit)? = null) {
         longClickListener = onLongClick
     }
 
     abstract fun bind(item: T)
-    fun bindNull(){}
+    fun bindNull() {}
 
     open fun onDetach() {
 

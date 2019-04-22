@@ -11,11 +11,11 @@ import kotlinx.android.parcel.Parcelize
 data class WordLocation(
     @JsonProperty("word") val word: String,
     @JsonProperty("char_positions") val charPositions: List<CharPosition>
-): Parcelable {
+) : Parcelable {
 
     @Parcelize
     data class CharPosition(
         @JsonProperty("x") val x: Int,
         @JsonProperty("y") val y: Int
-    ): Parcelable
+    ) : Parcelable
 }

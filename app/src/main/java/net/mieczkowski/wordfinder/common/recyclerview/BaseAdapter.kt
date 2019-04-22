@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 /**
  * Created by Josh Mieczkowski on 4/21/2019.
  */
-abstract class BaseAdapter<T>: RecyclerView.Adapter<BaseViewHolder<T>>() {
+abstract class BaseAdapter<T> : RecyclerView.Adapter<BaseViewHolder<T>>() {
 
     private var clickListener: ((Context, Int) -> Unit)? = null
     private var longClickListener: ((Context, Int) -> Unit)? = null
@@ -35,7 +35,7 @@ abstract class BaseAdapter<T>: RecyclerView.Adapter<BaseViewHolder<T>>() {
 
         onDispose(position)
 
-        if (position < 0){
+        if (position < 0) {
             return
         }
 

@@ -42,7 +42,6 @@ class WordGridController(args: Bundle? = null) : BaseController(args) {
         else setChallenges(challenges)
     }
 
-
     override fun onSaveViewState(view: View, outState: Bundle) {
         super.onSaveViewState(view, outState)
 
