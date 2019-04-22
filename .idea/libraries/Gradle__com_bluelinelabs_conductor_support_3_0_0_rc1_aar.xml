@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bluelinelabs:conductor-support:3.0.0-rc1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4676d7dfb1af6e61deeb096acf7f5ea1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4676d7dfb1af6e61deeb096acf7f5ea1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bluelinelabs/conductor-support/3.0.0-rc1/1e0e2b46c00374a55a02144e71b0650a6b4acc87/conductor-support-3.0.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

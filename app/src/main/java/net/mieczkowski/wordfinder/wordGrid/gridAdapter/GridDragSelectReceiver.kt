@@ -12,6 +12,7 @@ class GridDragSelectReceiver(private val gridAdapter: GridAdapter) : DragSelectR
     private var startingXY = WordLocation.CharPosition(-1, -1)
 
     fun setStartingIndex(index: Int) {
+        gridAdapter.deselectItems()
         startingIndex = index
         startingXY = gridAdapter.challenge.getCharPosition(index)
     }
@@ -20,21 +21,20 @@ class GridDragSelectReceiver(private val gridAdapter: GridAdapter) : DragSelectR
 
     override fun isIndexSelectable(index: Int): Boolean = true
 
-    override fun isSelected(index: Int): Boolean = gridAdapter.getData(index)?.isSelected == true
+    override fun isSelected(index: Int): Boolean =
+        gridAdapter.getData(index)?.colorState == SelectableString.ColorState.Selected
 
     override fun setSelected(index: Int, selected: Boolean) {
-        if (index == startingIndex){
-            if(selected){
-                gridAdapter.getData(index)?.isSelected = selected
-                gridAdapter.notifyItemChanged(index)
-            }
+        if (index == startingIndex) {
+            gridAdapter.getData(index)?.colorState = SelectableString.ColorState.Selected
+            gridAdapter.notifyItemChanged(index)
 
             return
         }
 
         gridAdapter.deselectItems()
-        gridAdapter.challenge.getSelectableIndexs(index, startingXY).forEach {
-            gridAdapter.getData(it)?.isSelected = true
+        gridAdapter.challenge.getSelectableIndexes(index, startingXY).forEach {
+            gridAdapter.getData(it)?.colorState = SelectableString.ColorState.Selected
             gridAdapter.notifyItemChanged(it)
         }
     }

@@ -23,7 +23,7 @@ data class Challenge(
     fun getGridHeight(): Int = characterGrid.size
 
     @JsonIgnore
-    fun getGrid(): MutableList<MutableList<String>>{
+    fun getGrid(): MutableList<MutableList<String>> {
         val grid: MutableList<MutableList<String>> = characterGrid.map { it.toMutableList() }.toMutableList()
 
         wordLocations.forEach { wordLocation ->
@@ -44,17 +44,20 @@ data class Challenge(
 
     fun getCharIndex(charPosition: WordLocation.CharPosition): Int = getGridWidth() * charPosition.y + charPosition.x
 
-    fun getSelectableIndexs(index: Int, startingCharPosition: WordLocation.CharPosition): List<Int> {
+    fun getSelectableIndexes(index: Int, startingCharPosition: WordLocation.CharPosition): List<Int> {
         val currentXY = getCharPosition(index)
 
         return when {
             startingCharPosition.y == currentXY.y -> handleHorizontal(currentXY, startingCharPosition)
             startingCharPosition.x == currentXY.x -> handleVertical(currentXY, startingCharPosition)
-            else -> mutableListOf()
+            else -> handleDiagonal(currentXY, startingCharPosition)
         }
     }
 
-    private fun handleHorizontal(currentXY: WordLocation.CharPosition, startingCharPosition: WordLocation.CharPosition): List<Int>{
+    private fun handleHorizontal(
+        currentXY: WordLocation.CharPosition,
+        startingCharPosition: WordLocation.CharPosition
+    ): List<Int> {
         val startingPoint = Math.min(startingCharPosition.x, currentXY.x)
         val endingPoint = Math.max(startingCharPosition.x, currentXY.x)
         val diff = endingPoint - startingPoint
@@ -64,7 +67,10 @@ data class Challenge(
         }
     }
 
-    private fun handleVertical(currentXY: WordLocation.CharPosition, startingCharPosition: WordLocation.CharPosition): List<Int>{
+    private fun handleVertical(
+        currentXY: WordLocation.CharPosition,
+        startingCharPosition: WordLocation.CharPosition
+    ): List<Int> {
         val startingPoint = Math.min(startingCharPosition.y, currentXY.y)
         val endingPoint = Math.max(startingCharPosition.y, currentXY.y)
         val diff = endingPoint - startingPoint
@@ -73,5 +79,51 @@ data class Challenge(
         return (0..diff).map {
             getCharIndex(WordLocation.CharPosition(currentXY.x, startingPoint + it))
         }
+    }
+
+    private fun handleDiagonal(
+        currentXY: WordLocation.CharPosition,
+        startingCharPosition: WordLocation.CharPosition
+    ): List<Int> {
+        val diffX = Math.abs(currentXY.x - startingCharPosition.x)
+        val diffY = Math.abs(currentXY.y - startingCharPosition.y)
+
+        return if (diffX == diffY) {
+            val toReturn = mutableListOf(
+                getCharIndex(WordLocation.CharPosition(currentXY.x, currentXY.y)),
+                getCharIndex(WordLocation.CharPosition(startingCharPosition.x, startingCharPosition.y))
+            )
+
+            var xModifier = 0
+            var yModifier = 0
+
+            when {
+                currentXY.x < startingCharPosition.x && currentXY.y < startingCharPosition.y -> {
+                    xModifier = 1
+                    yModifier = 1
+                }
+                currentXY.x > startingCharPosition.x && currentXY.y < startingCharPosition.y -> {
+                    xModifier = -1
+                    yModifier = 1
+                }
+                currentXY.x < startingCharPosition.x && currentXY.y > startingCharPosition.y -> {
+                    xModifier = 1
+                    yModifier = -1
+                }
+                currentXY.x > startingCharPosition.x && currentXY.y > startingCharPosition.y -> {
+                    xModifier = -1
+                    yModifier = -1
+                }
+            }
+
+            for (index in 1 until diffX) {
+                val x = currentXY.x + (index * xModifier)
+                val y = currentXY.y + (index * yModifier)
+
+                toReturn.add(getCharIndex(WordLocation.CharPosition(x, y)))
+            }
+
+            toReturn
+        } else mutableListOf(getCharIndex(WordLocation.CharPosition(startingCharPosition.x, startingCharPosition.y)))
     }
 }

@@ -66,19 +66,19 @@ class ChallengeTest {
         var startingCharPosition = WordLocation.CharPosition(0, 0)
         var currentIndex = 2
         var expectedSelectedIndexes = listOf(0, 1, 2)
-        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexs(currentIndex, startingCharPosition))
+        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexes(currentIndex, startingCharPosition))
 
 
         startingCharPosition = WordLocation.CharPosition(0, 1)
         currentIndex = 5
         expectedSelectedIndexes = listOf(3, 4, 5)
-        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexs(currentIndex, startingCharPosition))
+        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexes(currentIndex, startingCharPosition))
 
 
         startingCharPosition = WordLocation.CharPosition(2, 2)
         currentIndex = 7
         expectedSelectedIndexes = listOf(7, 8)
-        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexs(currentIndex, startingCharPosition))
+        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexes(currentIndex, startingCharPosition))
     }
 
 
@@ -87,19 +87,46 @@ class ChallengeTest {
         var startingCharPosition = WordLocation.CharPosition(0, 0)
         var currentIndex = 6
         var expectedSelectedIndexes = listOf(0, 3, 6)
-        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexs(currentIndex, startingCharPosition))
+        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexes(currentIndex, startingCharPosition))
 
 
         startingCharPosition = WordLocation.CharPosition(1, 0)
         currentIndex = 7
         expectedSelectedIndexes = listOf(1, 4, 7)
-        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexs(currentIndex, startingCharPosition))
+        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexes(currentIndex, startingCharPosition))
 
 
         startingCharPosition = WordLocation.CharPosition(2, 2)
         currentIndex = 5
         expectedSelectedIndexes = listOf(5, 8)
-        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexs(currentIndex, startingCharPosition))
+        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexes(currentIndex, startingCharPosition))
+    }
+
+
+    @Test
+    fun `testing correct diagonal indexes`(){
+        var startingCharPosition = WordLocation.CharPosition(1, 1)
+        var currentIndex = 0
+        var expectedSelectedIndexes = listOf(0, 4)
+        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexes(currentIndex, startingCharPosition))
+
+
+        startingCharPosition = WordLocation.CharPosition(1, 1)
+        currentIndex = 2
+        expectedSelectedIndexes = listOf(2, 4)
+        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexes(currentIndex, startingCharPosition))
+
+
+        startingCharPosition = WordLocation.CharPosition(1, 1)
+        currentIndex = 6
+        expectedSelectedIndexes = listOf(6, 4)
+        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexes(currentIndex, startingCharPosition))
+
+
+        startingCharPosition = WordLocation.CharPosition(1, 1)
+        currentIndex = 8
+        expectedSelectedIndexes = listOf(8, 4)
+        assertEquals(expectedSelectedIndexes, testChallenge.getSelectableIndexes(currentIndex, startingCharPosition))
     }
 
 

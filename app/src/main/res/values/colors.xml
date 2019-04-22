@@ -6,4 +6,10 @@
 
     <color name="default_background_color">#ececec</color>
     <color name="default_light_background_color">#FFFFFF</color>
+
+
+    <color name="grid_unselected">@color/default_light_background_color</color>
+    <color name="grid_selected">#72bcd4</color>
+    <color name="grid_incorrect">#FF5B5B</color>
+    <color name="grid_correct">#7FBF7F</color>
 </resources>

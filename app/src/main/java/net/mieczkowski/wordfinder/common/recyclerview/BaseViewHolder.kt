@@ -19,7 +19,7 @@ abstract class BaseViewHolder<T>(itemView: View): RecyclerView.ViewHolder(itemVi
 
         itemView.setOnLongClickListener {
             longClickListener?.invoke(itemView.context, adapterPosition)
-            true
+            false
         }
     }
 

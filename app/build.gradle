@@ -21,7 +21,7 @@ android {
     }
 }
 
-def conductorVersion = '2.1.5'
+def conductorVersion = '3.0.0-rc1'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])

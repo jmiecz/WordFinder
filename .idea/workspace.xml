@@ -13,15 +13,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="598e3627-57dd-435e-830f-9b1fb12d56b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridDragSelectReceiver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_bluelinelabs_conductor_3_0_0_rc1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_bluelinelabs_conductor_support_3_0_0_rc1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/NoScrollGridLayoutManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_bluelinelabs_conductor_2_1_5_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_bluelinelabs_conductor_support_2_1_5_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/AdapterContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/WordGridController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/WordGridController.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridDragSelectReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridDragSelectReceiver.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridViewHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_grid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_grid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/models/Challenge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/models/Challenge.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dal/src/test/java/net/mieczkowski/dal/services/challenges/models/ChallengeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/dal/src/test/java/net/mieczkowski/dal/services/challenges/models/ChallengeTest.kt" afterDir="false" />
     </list>
@@ -30,70 +41,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridAdapter.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="153">
-                    <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseAdapter.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="502">
-                    <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-                    <folding>
-                      <element signature="e#56#262#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridViewHolder.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state>
-                    <caret column="35" selection-start-column="35" selection-end-column="35" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="510">
-                    <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-                    <folding>
-                      <element signature="e#56#160#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/models/Challenge.kt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="263">
-                    <caret line="44" column="117" selection-start-line="44" selection-start-column="117" selection-end-line="44" selection-end-column="117" />
-                    <folding>
-                      <element signature="e#56#294#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -112,17 +59,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/WordGridController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="731">
+              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+              <folding>
+                <element signature="e#1612#1714#0" expanded="true" />
+                <element signature="e#2022#2056#1" expanded="true" />
+                <element signature="e#2078#2106#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dal/src/main/res/raw/find_challenges.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="106" selection-start-column="106" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridDragSelectReceiver.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+            <state relative-caret-position="357">
+              <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
               <folding>
                 <element signature="e#57#187#0" expanded="true" />
               </folding>
@@ -130,11 +100,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dal/src/test/java/net/mieczkowski/dal/services/challenges/models/ChallengeTest.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="80" column="116" selection-start-line="80" selection-start-column="116" selection-end-line="80" selection-end-column="116" />
+            <state relative-caret-position="295">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
+              <folding>
+                <element signature="e#57#946#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,6 +133,12 @@
       <find>handleUpdatingItems</find>
       <find>getItemCount</find>
       <find>clickListener</find>
+      <find>autoScrollListener</find>
+      <find>isAutoScrolling</find>
+      <find>autoScrollRunnable</find>
+      <find>mOnItemTouchListeners</find>
+      <find>word_locations</find>
+      <find>SelectableString.ColorState.Selected</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,8 +166,6 @@
         <option value="$PROJECT_DIR$/dal/build.gradle" />
         <option value="$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/network/RetrofitFactory.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/controllers/BaseController.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/controller_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainController.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/exts/ControllerExts.kt" />
@@ -196,24 +173,29 @@
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/dragSelection/LongPressGestureListener.kt" />
         <option value="$PROJECT_DIR$/dal/src/test/java/net/mieczkowski/dal/services/challenges/ChallengesServiceTest.kt" />
         <option value="$PROJECT_DIR$/dal/src/test/java/net/mieczkowski/dal/services/challenges/models/ChallengeTest.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/WordGridController.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/diems.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/exts/RecyclerViewExts.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/controller_word_grid.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/divider_line.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_grid.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/AdapterContract.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolderNEW.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseAdapterNEW.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridViewHolder.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseAdapter.kt" />
-        <option value="$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/models/Challenge.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridViewHolder.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/NoScrollGridLayoutManager.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/controller_word_grid.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainActivity.kt" />
         <option value="$PROJECT_DIR$/dal/src/test/java/net/mieczkowski/dal/services/challenges/models/ChallengeTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_grid.xml" />
+        <option value="$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/models/Challenge.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/WordGridController.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridDragSelectReceiver.kt" />
       </list>
     </option>
@@ -238,12 +220,74 @@
           <expand>
             <path>
               <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="wordfinder" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="wordfinder" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="wordfinder" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="recyclerview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="wordfinder" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="wordGrid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="wordfinder" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="wordGrid" type="462c0819:PsiDirectoryNode" />
+              <item name="gridAdapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
               <item name="dal" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
               <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
               <item name="dal" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dal" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dal" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
@@ -268,6 +312,17 @@
             </path>
             <path>
               <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dal" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dal" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="raw" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="WordFinder" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
@@ -278,6 +333,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="Nexus_5X_API_28_2 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="net.mieczkowski.wordfinder" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -456,18 +515,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="ChallengeTest - 2019.04.21 at 17h 09m 04s.xml">
-      <configuration name="ChallengeTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="ChallengeTest - 2019.04.21 at 17h 09m 33s.xml">
-      <configuration name="ChallengeTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="ChallengeTest - 2019.04.21 at 17h 10m 34s.xml">
-      <configuration name="ChallengeTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="ChallengeTest - 2019.04.21 at 17h 11m 43s.xml">
-      <configuration name="ChallengeTest" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="ChallengeTest - 2019.04.21 at 17h 13m 21s.xml">
       <configuration name="ChallengeTest" configurationId="AndroidJUnit" />
     </history-entry>
@@ -486,14 +533,25 @@
     <history-entry file="ChallengeTest - 2019.04.21 at 17h 19m 20s.xml">
       <configuration name="ChallengeTest" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="ChallengeTest - 2019.04.21 at 20h 21m 14s.xml">
+      <configuration name="ChallengeTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ChallengeTest - 2019.04.21 at 20h 21m 44s.xml">
+      <configuration name="ChallengeTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ChallengeTest - 2019.04.21 at 20h 21m 56s.xml">
+      <configuration name="ChallengeTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="ChallengeTest - 2019.04.21 at 20h 22m 27s.xml">
+      <configuration name="ChallengeTest" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1713" y="0" width="1734" height="1407" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Resources Explorer" order="0" weight="0.3297491" />
       <window_info id="Captures" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.1577061" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.23058543" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Build Variants" order="5" side_tool="true" />
@@ -530,43 +588,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxkotlin/2.3.0/ec9571b67d8c8d0f672bb671c6f0ae025636d55c/rxkotlin-2.3.0-sources.jar!/io/reactivex/rxkotlin/subscribers.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/ChallengesDeserializer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-          <folding>
-            <element signature="e#49#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/ChallengesService.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#49#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/DAL.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-          <folding>
-            <element signature="e#29#740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dal/build/generated/source/buildConfig/debug/net/mieczkowski/dal/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -624,35 +645,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/placeHolder.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/controllers/BaseController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="e#55#610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cfc3778e8028599cd8717282e80635d/jars/classes.jar!/androidx/constraintlayout/widget/ConstraintLayout.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="5" column="41" selection-start-line="5" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -666,13 +662,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/dragSelection/LongPressItemTouchListener.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/dragSelection/LongPressGestureListener.kt" />
-    <entry file="file://$PROJECT_DIR$/dal/src/main/res/raw/find_challenges.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="284" selection-start-line="8" selection-start-column="284" selection-end-line="8" selection-end-column="284" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dal/src/test/java/net/mieczkowski/dal/BaseTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -698,16 +687,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainController.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#36#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimen.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -730,40 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/controller_word_grid.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_grid.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="jar://D:/SDK/platforms/android-28/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="318" column="16" selection-start-line="318" selection-start-column="16" selection-end-line="318" selection-end-column="16" />
-          <folding>
-            <element signature="e#15549#15550#0" expanded="true" />
-            <element signature="e#15600#15601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.afollestad/drag-select-recyclerview/2.4.0/23bc9cc4f2a07e079ba2b71d7082c9f174cef4d3/drag-select-recyclerview-2.4.0-sources.jar!/com/afollestad/dragselectrecyclerview/DragSelectTouchListener.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4785">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.afollestad/recyclical/0.7.1/13a2723fdb8a1262feb84dde5ede3460a5fbe56e/recyclical-0.7.1-sources.jar!/com/afollestad/recyclical/ItemDefinition.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -778,28 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.afollestad/drag-select-recyclerview/2.4.0/23bc9cc4f2a07e079ba2b71d7082c9f174cef4d3/drag-select-recyclerview-2.4.0-sources.jar!/com/afollestad/dragselectrecyclerview/DragSelectReceiver.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="6973" column="20" selection-start-line="6973" selection-start-column="20" selection-end-line="6973" selection-end-column="20" />
-          <folding>
-            <element signature="e#120170#120171#0" expanded="true" />
-            <element signature="e#120221#120222#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,41 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/WordGridController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dal/src/test/java/net/mieczkowski/dal/services/challenges/ChallengesServiceTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridViewHolder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-          <folding>
-            <element signature="e#56#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,29 +755,200 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/b8815e48fb45e94821287365bd9ce8623f459ac7/kotlin-stdlib-1.3.21-sources.jar!/kotlin/Any.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SDK/platforms/android-28/android.jar!/android/view/KeyEvent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.afollestad/drag-select-recyclerview/2.4.0/23bc9cc4f2a07e079ba2b71d7082c9f174cef4d3/drag-select-recyclerview-2.4.0-sources.jar!/com/afollestad/dragselectrecyclerview/DragSelectTouchListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="226" column="66" selection-start-line="226" selection-start-column="48" selection-end-line="226" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SDK/platforms/android-28/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="2904" column="21" selection-start-line="2904" selection-start-column="21" selection-end-line="2904" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/BaseViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#56#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="10584" column="93" selection-start-line="10584" selection-start-column="61" selection-end-line="10584" selection-end-column="93" />
+          <folding>
+            <element signature="e#120170#120171#0" expanded="true" />
+            <element signature="e#120221#120222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/controllers/BaseController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding>
+            <element signature="e#55#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/common/recyclerview/NoScrollGridLayoutManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding>
+            <element signature="e#56#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/controller_word_grid.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dal/src/test/java/net/mieczkowski/dal/services/challenges/models/ChallengeTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="80" column="116" selection-start-line="80" selection-start-column="116" selection-end-line="80" selection-end-column="116" />
+        <state relative-caret-position="-952">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_grid.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/models/Challenge.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="44" column="117" selection-start-line="44" selection-start-column="117" selection-end-line="44" selection-end-column="117" />
+        <state relative-caret-position="162">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="e#56#294#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dal/src/main/java/net/mieczkowski/dal/services/challenges/ChallengesDeserializer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/src/main/res/raw/find_challenges.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="106" selection-start-column="106" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/WordGridController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+          <folding>
+            <element signature="e#1612#1714#0" expanded="true" />
+            <element signature="e#2022#2056#1" expanded="true" />
+            <element signature="e#2078#2106#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridDragSelectReceiver.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        <state relative-caret-position="357">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
           <folding>
             <element signature="e#57#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/net/mieczkowski/wordfinder/wordGrid/gridAdapter/GridAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="e#57#946#0" expanded="true" />
           </folding>
         </state>
       </provider>
